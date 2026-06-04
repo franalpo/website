@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 
+
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Franc Alvarez</title>
+html {
+    color-scheme: light dark;
+}
 
 ___
 <style>
-  body {
+ body {
 font-family: Helvetica, Arial, sans-serif;
 max-width: 700px;
 margin: 40px auto;
@@ -16,40 +21,39 @@ padding: 0 20px;
 line-height: 1.6;
 
 ```
-background-color: #ffffff;
-color: #111111;
-```
-
-}
-
-p {
-color: #444444;
-}
-
-a {
-color: #111111;
-}
-
-/* Dark Mode */
-@media (prefers-color-scheme: dark) {
-body {
 background-color: #1f1f1f;
 color: #e5e5e5;
+```
+
+}
+
+p {
+color: #d0d0d0;
+}
+
+a {
+color: #d0d0d0;
+}
+
+/* Light Mode */
+@media (prefers-color-scheme: light) {
+body {
+background-color: #ffffff;
+color: #111111;
 }
 
 ```
 p {
-    color: #d0d0d0;
+    color: #444444;
 }
 
 a {
-    color: #d0d0d0;
+    color: #111111;
 }
 ```
 
 }
 
-    }
 
     nav a:hover {
         text-decoration: underline;
